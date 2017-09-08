@@ -1,0 +1,185 @@
+
+
+html, body {
+  margin:0;border:0;padding:0;
+  font-size:16px;
+  font-family:'Proxima';
+  overflow-x:hidden;
+  position: relative;
+  vertical-align: baseline;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+h2 {font-size:36px; color:deepskyblue;}
+h3 {font-size:30px;}
+h4 {font-size:24px;}
+h5 {font-size:20px;}
+h6 {font-size:18px;}
+
+h2 {
+  padding-bottom: 14px;
+}
+p{
+    line-height: 35px;
+}
+
+.accent {
+  font-family: 'Proxima Bold';
+  line-height: 18px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+.about,.skills,
+.education,.languages,
+.contact, .experience {
+  padding: 40px;
+  min-height: 330px;
+}
+
+.education, .languages,
+.contact, .experience {
+  margin-top: 30px;
+}
+
+header {
+  text-align: center;
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+    padding-top: 100px;
+  padding-bottom: 100px;
+}
+header img {
+  display: inline-block !important;
+}
+header h2 {
+  padding-top: 40px;
+}
+nav {
+   background: rgba(0,0,0,0.4);
+}
+nav:hover{
+    background: rgba(0,0,0,0.2);
+}
+nav ul li{
+    list-style: none;
+    float:left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav ul li:hover{
+    background:rgba(0,0,0,0.5);
+
+}
+nav a{
+    color: aliceblue;
+    line-height: 80px;
+}
+nav a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.about {
+  background: #ffffff;
+    border-radius: 10px;
+}
+
+.about:hover{
+ background: rgba(0,0,0,0.2);
+    color: #eee;
+}
+
+.skills {
+    border-radius: 10px;
+  background: #666666;
+
+       
+}
+.skills:hover{
+    background: rgba(0,0,0,0.2);
+    color: #eee;
+}
+.skills .progress {
+  border-radius: 0px;
+  height: 4px;
+}
+.skills strong {
+  display: inline-block;
+  font-weight: normal;
+  padding-bottom: 6px;
+}
+
+.education {
+  background: #666666;
+  border-radius: 10px;
+   
+}
+.education:hover{
+     background: rgba(0,0,0,0.2);
+    color: #eee;
+}
+.education .education-content {
+  padding-bottom: 14px;
+}
+.education h5 {
+  display: inline-block;
+}
+.education span {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.languages {
+  background: #fff;
+   
+    border-radius: 10px;
+}
+.languages:hover{
+        background: rgba(0,0,0,0.2);
+    color: #eee;
+    }
+.languages ul {
+  padding: 10px;
+    float:left;
+    margin-left: 52px;
+}
+.languages ul li {
+  padding-bottom: 6px;
+    list-style: none;
+}
+
+.contact {
+  background: #fff;
+    border-radius: 10px;
+}
+.contact:hover{
+  background: rgba(0,0,0,0.2);
+    color: #eee;
+}
+.experience {
+    border-radius: 10px;
+  background: #666666;
+}
+.experience:hover{
+ background: rgba(0,0,0,0.2);
+    color: #eee;
+}
+.experience span {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
