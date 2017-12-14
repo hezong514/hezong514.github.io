@@ -1,0 +1,360 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+      position: relative;
+      height: 100%;
+       
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+        
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+.swiper-slide{
+    background-color: black;
+    background-image: url(../img/1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.w{
+   
+}
+
+.s1_top_img{
+  
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    color: rgb(217, 137, 13);
+}
+.s1{
+    width: 95%;
+}
+.s1_top_img .s1{
+    font-size: 10px;
+}
+
+.xian{
+    width: 50%;
+    position: absolute;
+    top: 22%;
+    left: 26%;
+}
+.xian1{
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.left1{
+    width: 25%;
+    position: absolute;
+    top: 0%;
+    left:0%
+}
+.right1{
+    width: 25%;
+    position: absolute;
+    top: 0%;
+    right:0%
+}
+.left2{
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left:0%
+}
+.right2{
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    right:0%
+}
+.left3{
+    width: 25%;
+    position: absolute;
+    bottom: 0%;
+    left:0%
+}
+.right3{
+        width: 25%;
+        position: absolute;
+        bottom: 0%;
+    right:0%
+}
+.left4{
+    width: 35%;
+    position: absolute;
+    top: 0%;
+    left:0%
+}
+.right4{
+    width: 35%;
+    height:16%;
+    position: absolute;
+    top: 0%;
+    right:0%
+}
+.yaoqing{
+    width: 40%;
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    
+}
+.d{
+     width: 20%;
+    position: absolute;
+    top: 18%;
+    left: 0%;
+}
+.d1{
+     width: 20%;
+    position: absolute;
+    top: 18%;
+    right: 0%;
+}
+.d0{
+    width: 40%;
+    position: absolute;
+    top: 24%;
+    right: %;
+}
+.d2{
+    width: 60%;
+    position: absolute;
+    top: 35%;
+    right: %;
+    border: 2px #faa603 solid;
+}
+.font{
+     position: absolute;
+    top: 63%;
+    font-size: 14px;
+    color:#faa603; 
+    text-align: center;
+}
+.font1{
+    position: absolute;
+    top: 33%;
+    font-size: 14px;
+    line-height: 30px;
+    color:#faa603; 
+    text-align: center;
+}
+.font2{
+    position: absolute;
+    top: 53%;
+    font-size: 14px;
+    line-height: 30px;
+    color:#faa603; 
+    text-align: center;
+}
+.s1_bottom_img{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 10%;
+    
+}
+.s1_bottom_img img{
+    width: 50%;
+  
+}
+.riqi{
+       position: absolute;
+    top: 110%;
+    left: 32%;
+    color: rgb(217, 137, 13);
+}
+.xiao{
+    position: absolute;
+    top: 90%;
+    left: 33%;
+    font-weight: 700;
+    color: rgb(217, 137, 13);
+    
+}
+
+#music #img1{
+    
+        position: absolute;
+        z-index: 100;
+        top: 3%;
+        right: 3%;
+        width: 10%;
+        animation: bb 2s linear infinite;
+      
+}
+.map{
+    position: absolute;
+    top: 40%;
+   width:50%;
+    height:30%;
+    font-size:12px;
+        border: 3px #faa603 solid;
+}
+.b{
+    width: 40%;
+    position: absolute;
+   bottom: 0%;
+    left: 35%;
+}
+.d6{
+  position: absolute;
+    top: 76%;
+    left: 27%;
+}
+.i1{
+    width: 65%;
+    height: 15%;
+    position: absolute;
+    top: 33%;
+    border: 2px #faa603 solid;
+}
+.i2{
+    width: 28%;
+    height: 25%;
+    position: absolute;
+    top: 48.5%;
+    left: 17.5%;
+    border: 2px #faa603 solid;
+}
+.i3{
+    width: 35%;
+    height: 25%;
+    position: absolute;
+    top: 48.5%;
+    left: 47%;
+    border: 2px #faa603 solid;
+}
+.i4{
+    width: 65%;
+    height: 15%;
+    position: absolute;
+    top: 74%;
+    border: 2px #faa603 solid;
+}
+.ewm{
+    width: 50%;
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    border: 2px #faa603 solid;
+}
+.shu{
+    width: 0.3%;
+    height: 62%;
+    position: absolute;
+    top: 29%;
+    left: 8%;
+}
+.shu1{
+    width: 0.3%;
+    height: 62%;
+    position: absolute;
+    top: 29%;
+    left: 11%;
+}
+.shu2{
+    width: 0.3%;
+    height: 62%;
+    position: absolute;
+    top: 29%;
+    right: 8%;
+}
+.shu3{
+    width: 0.3%;
+    height: 62%;
+    position: absolute;
+    top: 29%;
+    right: 11%;
+}
+.bk{
+    width: 50%;
+    height: 7%;
+    position: absolute;
+    top: 64%;
+    left: 26%;
+    
+}
+.h{
+     width: 50%;
+    height: 7%;
+    position: absolute;
+    top: 64%;
+    left: 26%;
+}
+.hh{
+    font-size: 20px;
+    color: #faa603;
+    position: absolute;
+    top: 72%;
+    left: 32%;
+    
+}
+
+.swiper-button-next{
+    position: absolute;
+    top: auto;
+    bottom: 2%;
+    left: 50%;
+    margin-left: -13.5px;
+    animation: dong 1s linear infinite;
+}
+
+@keyframes dong{
+    0%{
+        position: absolute;
+        bottom: 2%;
+    }
+    100%{
+        position: absolute;
+        bottom: 6%;
+       
+    }
+}
+@keyframes bb{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
