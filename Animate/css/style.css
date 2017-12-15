@@ -310,7 +310,7 @@ html, body {
     width: 50%;
     height: 7%;
     position: absolute;
-    top: 64%;
+    top: 67%;
     left: 26%;
     
 }
@@ -318,7 +318,7 @@ html, body {
      width: 50%;
     height: 7%;
     position: absolute;
-    top: 64%;
+    top: 67%;
     left: 26%;
 }
 .hh{
@@ -329,7 +329,12 @@ html, body {
     left: 32%;
     
 }
-
+.tim{
+     position: absolute;
+    top:35%;
+    width: 67%;
+    height: 38%;
+}
 .swiper-button-next{
     position: absolute;
     top: auto;
