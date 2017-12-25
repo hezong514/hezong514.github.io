@@ -1,10 +1,16 @@
+/*css样式表重置*/
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     -webkit-box-sizing:border-box;
 }
-ul,li{
+body{
+     font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\\5b8b体", sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+ul li{
     list-style: none;
 }
 a{
@@ -13,28 +19,21 @@ a{
 a:hover{
     text-decoration: none;
 }
-body{
-    font-family: : "Microsoft YaHei",Arial,Helvetica,sans-serif;
- font-size: 0.12rem;
-    color: #000;
-}
 input{
+    border: none;
     outline: none;
 }
-button{
-    border: none;
-     outline: none;
-}
 /*公共样式*/
-.f_left{
+
+.s_left{
     float: left;
 }
-.f_right{
-    float: right;
+.s_right{
+    float:right;
 }
 .clearfix::before,
 .clearfix::after{
-    content:'';
     clear: both;
+    content: "";
     display: table;
 }
