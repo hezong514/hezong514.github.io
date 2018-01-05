@@ -1,0 +1,94 @@
+.style_layout {
+    width: 6.4rem;
+    min-height: 2rem;
+    background-color: #fff;
+}
+
+.style_logo,
+.style_search,
+.style_nav,
+.style_banner,
+.style_new,
+.style_hot,
+.style_fasion,
+.style_footer {
+    width: 6.4rem;
+}
+
+.style_nav{
+    height: 1rem;
+}
+.style_bannera img{
+    width: 2.5rem;
+    height: 1.6rem;
+    float: left;
+  margin-left: 0.2rem;
+    margin-right: 0.1rem;
+}
+.style_bannera h4{
+font-size: 0.25rem;
+ 
+}
+.style_bannera p{
+    color: dimgrey;
+}
+.style_banner img{
+    width: 6.4rem;
+    
+    
+}
+.style_bannera div{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.style_new{
+    color: #575c5c;
+    padding-left: 0.3rem;
+}
+.style_new p{
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+     font-size: 0.25rem;
+}
+.style_new h4{
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+.style_new h5{
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.25rem;
+}
+.style_new img{
+    width: 2.8rem;
+}
+.style_new a{
+    color: #c84343;
+     font-size: 0.25rem;
+}
+.img1{
+       float: left;
+    width: 46%;
+    text-align: center;
+    margin-bottom: 0.7rem;
+}
+.style_footer{
+    width: 6.4rem;
+    height: 4rem;
+    background-image: url(../img/bjj.png);
+    background-size: 100% 100%;
+    clear: both;
+}
+.style_footer a{
+    color: aliceblue;
+    font-size: 0.25rem;
+    background-color: darkorange;
+    position: absolute;
+    left: 2.35rem;
+    top: 29rem;
+    padding: 0.25rem;
+  
+}
+

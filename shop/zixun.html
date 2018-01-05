@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0">
+     <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/chanpin.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <title>咨询</title>
+</head>
+    <style>
+        .logo{
+            width: 2.2rem;
+        }
+        .navbar{
+            margin-bottom: 0rem;
+        }
+        .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+
+            z-index: 9999;
+            position: absolute;
+            width: 100%;
+            background-color:rgba(0, 0, 0, 0.3);
+        }
+    
+    
+    .navbar-default .navbar-nav>li>a {
+        color:#ccc;
+        font-size: 0.25rem;
+    }
+    
+    
+        .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+            background-color:#000;
+            color: #fff;
+        }
+        .nav>li{
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+        .nav>li>a{
+            padding: 0.15rem;0.2rem;
+            color: black;
+        }
+    </style>
+<body>
+    <div class="style_layout">
+     
+        
+        
+        <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img src="img/logo.png" alt="" class="logo">
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="chanpin.html">水果</a></li>
+        <li><a href="zixun.html">咨询</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+ <div class="style_banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide s1"><img src="img/lb.jpg" alt=""></div>
+                    <div class="swiper-slide s1"><img src="img/lb1.jpg" alt=""></div>
+                    <div class="swiper-slide s1"><img src="img/lb2.jpg" alt=""></div>
+                    <div class="swiper-slide s1"><img src="img/lb3.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+   <div class="style_bannera">
+       <div>
+           <img src="img/20.jpg" alt="">
+           <h4>水果的选择方法</h4>
+           <p>根据水果的色泽特征、纹理形状判断,无论什么水果，部位凹得越厉害就越甜；颜色好看有光泽的；有没有一个圈圈，有的话就是母的，母的水果比较甜。</p>
+       </div>
+       
+        <div>
+           <img src="img/21.jpg" alt="">
+           <h4>那些水果有益健康</h4>
+           <p>吃水果可以健脾养胃、美容美白、预防疾病、补虚养血等。例如：苹果、香蕉、梨、草莓、西瓜、橘子、菠萝、柚子等等。</p>
+       </div>
+       
+        <div>
+           <img src="img/22.jpg" alt="">
+           <h4>正确吃水果方法</h4>
+           <p>有很多人都喜欢吃水果。但水果富含的营养虽多，也伴随着很多的问题，现在很多水果不是打了果蜡，就是打了激素什么的。一定要注意卫生。</p>
+       </div>
+        <div>
+           <img src="img/23.jpg" alt="">
+           <h4>有害的水果</h4>
+           <p>打蜡苹果、催熟香蕉、染色橙子、爆炸西瓜、激素草莓，这几种会产生对人体有害的物质,水果颜色鲜艳、亮丽夺目,但可千万不要被它们的表面给欺骗了。</p>
+       </div>
+       
+       
+   </div>
+   
+   
+   
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fontSizeSet.js"></script>
+    <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="js/swiper.js"></script>
+     <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'horizontal'
+            , loop: true
+            , autoplay: true
+            , centeredSlides: true
+            , autoplay: {
+                delay: 2500
+                , disableOnInteraction: false
+            }
+            , spaceBetween: 30
+            , effect: 'fade'
+            , pagination: {
+                el: '.swiper-pagination'
+                , clickable: true
+            , }
+            , navigation: {
+                nextEl: '.swiper-button-next'
+                , prevEl: '.swiper-button-prev'
+            , }
+        , })
+    </script>
+</body>
+
+</html>

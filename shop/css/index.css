@@ -1,0 +1,151 @@
+.style_layout {
+    width: 6.4rem;
+    min-height: 2rem;
+    background-color: #fff;
+}
+
+.style_logo,
+.style_logo1,
+.style_search,
+.style_nav,
+.style_banner,
+.style_banner1,
+.style_new,
+.style_hot,
+.style_fasion,
+.style_footer {
+    width: 6.4rem;
+}
+
+.style_logo img {
+    width: 2.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.style_nav {}
+
+.style_banner img {
+    width: 6.4rem;
+}
+
+.style_new {
+    height: 9rem;
+    background-color: #fff;
+}
+
+.style_new h2 {
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.style_new img {
+    width: 2.2rem;
+}
+
+.img1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.style_new h4 {
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.style_new p {
+    width: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+.style_hot {
+    background-color: #ececec;
+}
+
+.style_hot img {
+    width: 2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.style_hot h4 {
+    font-size: 0.3rem;
+    margin-bottom: 0.1rem;
+}
+
+.style_hot div {
+    margin: auto;
+    text-align: center;
+}
+
+.style_hot p {
+    padding-bottom: 0.5rem;
+}
+
+.style_fasion {
+    background-image: url(../img/bj.png);
+    background-size: 100% 100%;
+}
+
+.style_fasion img {
+    margin-left: 2.8rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+
+
+.style_fasion h4 {
+    color: #ccc;
+    text-align: center;
+    font-size: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.style_fasion p {
+    width: 5rem;
+    line-height: 0.5rem;
+    color: aliceblue;
+    margin-left: 0.7rem;
+    text-align: center;
+    padding-bottom: 0.3rem;
+}
+
+.style_footer {
+    background-image: url(../img/bottom.jpg);
+    background-size: 100% 100%;
+}
+
+.style_footer img {
+    margin-left: 2.8rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.style_footer h4 {
+    color: #010101;
+    text-align: center;
+    font-size: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.style_footer p {
+    width: 5rem;
+    line-height: 0.5rem;
+    color: #232121;
+    margin-left: 0.7rem;
+    text-align: center;
+}
+
+.a1 {
+    margin-top: 0.3rem;
+}
+
+
+.style_banner1 img{
+    width:6.3rem;
+}
