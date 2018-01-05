@@ -18,9 +18,12 @@
 .style_nav{
     height: 1rem;
 }
+.style_bannera{
+    padding: 0.2rem;
+}
 .style_bannera img{
-    width: 2.5rem;
-    height: 1.6rem;
+    width: 2.3rem;
+    height: 1.8rem;
     float: left;
   margin-left: 0.2rem;
     margin-right: 0.1rem;
@@ -38,8 +41,8 @@ font-size: 0.25rem;
     
 }
 .style_bannera div{
-    margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    clear: both;
 }
 .style_new{
     color: #575c5c;
